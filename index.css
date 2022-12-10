@@ -1,0 +1,182 @@
+body{
+    margin: 0;    
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif;
+}
+
+.top-bar{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    color: black;  /*font-color*/
+}
+
+.news-bar{
+    background-color: #cb0f0f;
+    width: 100%;
+    height: 60px;
+    color: white;  /*font-color*/
+}
+
+.category-bar{
+    background-color: #B80000;
+    width: 100%;
+    height: 35px;
+    color: white;  /*font-color*/
+}
+
+.location-bar{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    color: white;  /*font-color*/
+}
+
+.content{
+    background-color: white;
+    width: 100%;
+    color: #141414;  /*font-color*/
+}
+
+/* centers in the middle */
+.fixed-width{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#logo{
+    float:left;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    border-right: 1px solid #B4B4B4;
+    height: 70%;
+}
+
+#sign-in{
+    float:left;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 15px 60px 10px 10px;
+    border-right: 1px solid #B4B4B4;
+    height: 20px;
+}
+
+.top-bar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar ul li{
+    float:left;
+    list-style: none;   /* removes bullets */
+    border-right: 1px solid #B4B4B4;
+    font-weight: bold;
+    font-size: 0.7em;
+    padding: 15px 10px 10px 10px;
+    height: 20px;
+}
+
+#search-box{
+    float:left;
+    width: 200px;
+    padding: 12px 10px 12px 10px;
+}
+
+#search-box input{
+    background-image: url("https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 1em;
+    padding: 0px 20px 0px 15px;
+}
+
+.news-bar p{
+    margin: 0;
+    padding: 5px 0px 5px 0px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-weight: bold;*/
+    position: relative;
+    /*right: 2px;*/
+}
+
+.category-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;   /* removes bullets */
+}
+
+.category-bar ul li{
+    float:left;
+    border-right: 1px solid #B4B4B4;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.location-bar{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    color: black;  /*font-color*/
+}
+
+.location-bar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;   /* removes bullets */
+}
+
+.location-bar ul li{
+    float:left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    position: relative;
+    border-right: 1px solid #B4B4B4;
+    padding: 10px 12px 10px 12px;
+    
+    /*right: 5px;*/
+}
+
+#bold{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.content h1{
+    color: #141414;
+}
+
+.content img{
+    float:right;
+    position: relative;
+    padding: 10px;
+}
+
+.content p{
+    width: 500px;
+}
+
+
+
+
+
+
+.ssrcss-1gyzvqx-GlobalFooterStyling {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.8125rem;
+    line-height: 1.8em;
+    padding: 1rem 0;
+    background: #141414;
+    border-top: 1px solid #8A8C8E;
+    color: #F6F6F6;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+
+    text-decoration: none;
+    margin-top: 60px;
+}
+
